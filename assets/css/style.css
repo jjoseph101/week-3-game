@@ -1,0 +1,38 @@
+.snoophead {
+	margin: 0 auto;
+}
+
+.picBox {
+	margin: 0 auto;
+	float: left;
+	border-style: inset;
+	border-color: black;
+	border-width:3px;
+	/*padding: 2.5%;*/
+	width: 50%;
+}
+
+.gamebox {
+	margin: 0 auto;
+	text-align: center;
+	border-style: outset;
+	border-color: black;
+	border-width:3px;	
+	width: 50%;
+	margin-left:50%;
+	/*padding: 2%;*/
+}
+
+.snoop {
+	width:17%;
+}
+
+.hangman {
+	width:82%;
+}
+
+
+
+/*@media screen and (max-width: 640px) {
+
+}*/
