@@ -88,7 +88,7 @@ function letterSpaces () {
 	// for (i=0; i<selectedWord.length; i++) {
 	// 	spacedOut.push(selectedWord[i]);
 	// 	begBlank.push(" _");
-	}
+	// }
 
 	//test to display spaced out letters to console...test successful//
 	console.log(spacedOut);
@@ -99,7 +99,7 @@ function letterSpaces () {
 	
 	//populate initial page with initial data//
 	initialLoad ();
-}
+};
 
 //separate each letter of selected word into its own space in an arrary//
 function sepLetter () {
@@ -116,11 +116,8 @@ function initialLoad () {
 	document.getElementById("winCount").innerHTML = totalWins;
 	document.getElementById("guessesLeft").innerHTML = guessLeft;
 	document.getElementById("usedLetters").innerHTML = badLetters;
-<<<<<<< HEAD
 	document.getElementById("picLeft").innerHTML = "<img style='width:100%;' src='assets/images/letters.png'>";
-=======
-	document.getElementById("picLeft").innerHTML = "<img src='assets/images/letters.png'>";	
->>>>>>> 97356ffe4b83c3f151e9add1a27a14a4ecf38638
+
 }
 
 //display loser screen
